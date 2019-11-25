@@ -277,7 +277,7 @@ function chooseSauce() {
 function confirmSauce() {
     if (newSauce == ketchup.value) {
         console.log(newSauce);
-        newMayoValidation.style.display = "block";
+        newKetchupValidation.style.display = "block";
 
     } else if (newSauce == mayo.value) {
         newMayoValidation.style.display = "block";
