@@ -50,8 +50,8 @@ let newBun;
 let newCheese;
 let newMeat;
 let newGarnish = [];
-let newBurger = [];
 let newSauce;
+let newBurger = [];
 
 function emptyTheBun() {
     newBun = [];
@@ -100,7 +100,7 @@ function confirmBun() {
     newBunValidationBottom.style.display = "block";
     newBunValidation.innerHTML = "Your bun is : " + newBun;
     validateBun.style.display = "none";
-
+    console.log(newBurger);
 }
 
 function cheeseYesSelection() {
@@ -190,6 +190,7 @@ function confirmCookedMeat() {
     newMeatValidation.innerHTML = "Your meat is : " + newMeat;
     validateCookedMeat.style.display = "none";
     showCookedMeat.style.display = "none";
+    console.log(newBurger);
     console.log(newBurger);
 }
 

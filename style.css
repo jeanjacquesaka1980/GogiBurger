@@ -1,49 +1,49 @@
 body {
-    width: 100%;
+  width: 100%;
+  font-size: 16px;
 }
 
 .bg-image-header {
-    background-image: url("images/homepage.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url("images/homepage.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-    font-family: 'PT Serif', serif;
-    color: #F9F9F9;
-    padding: 20px;
+  font-family: "PT Serif", serif;
+  color: #f9f9f9;
+  padding: 20px;
 }
 
 #main-card {
-    margin: 0 auto;
-    margin-bottom: 200px;
+  margin: 0 auto;
+  margin-bottom: 15.625vw;
 }
 
 #sub-card {
-    background-color: rgba(249, 249, 249, 0.60);
+  background-color: rgba(249, 249, 249, 0.6);
 }
 
 .card-body hr,
 #burger hr {
-    width: 400px;
-    border-bottom: 3px solid #292b2c;
+  width: 31.25vw;
+  border-bottom: 3px solid #292b2c;
 }
 
 .form-control {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .slider {
-    width: 300px;
-
+  width: 23.438vw;
 }
 
 #burger {
-    height: 100%;
-    border: 3px solid #292b2c;
-    background-color: rgba(249, 249, 249, 0.60);
+  height: 100%;
+  border: 3px solid #292b2c;
+  background-color: rgba(249, 249, 249, 0.6);
 }
 
 #cheese,
@@ -58,116 +58,168 @@ h1 {
 #new-onions-validation2,
 #new-tomatoes-validation,
 #new-salad-validation {
-    display: none;
-    margin: 0 auto;
+  display: none;
+  margin: 0 auto;
 }
 
 #new-bun-validation,
 #new-bun-validation-bottom,
 #new-cheese-validation,
 #new-meat-validation {
-    margin: 0 auto;
-    width: 400px;
-    display: none;
-    text-transform: uppercase;
-    color: #d9534f;
+  margin: 0 auto;
+  width: 31.25vw;
+  display: none;
+  text-transform: uppercase;
+  color: #d9534f;
 }
 
 #new-bun-validation {
-    background-color: rgb(245, 148, 12);
-    border-radius: 40px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+  background-color: rgb(245, 148, 12);
+  border-radius: 40px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 #new-bun-validation-bottom {
-    background-color: rgb(245, 148, 12);
-    border-radius: 10px;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
+  background-color: rgb(245, 148, 12);
+  border-radius: 10px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 
-
 #new-cheese-validation {
-    background-color: rgba(240, 173, 78);
-    border-radius: 15px;
+  background-color: rgba(240, 173, 78);
+  border-radius: 15px;
 }
 
 #new-meat-validation {
-    background-color: rgb(108, 65, 5);
-    border-radius: 10px;
-    width: 450px;
+  background-color: rgb(108, 65, 5);
+  border-radius: 10px;
+  width: 30.156vw;
 }
 
 #show-cooked-meat {
-    display: none;
-    margin: 0 auto;
-    background-color: #292b2c;
-    border-radius: 3px;
-    width: 450px;
-    color: #f9f9f9;
+  display: none;
+  margin: 0 auto;
+  background-color: #292b2c;
+  border-radius: 3px;
+  width: 35.156vw;
+  color: #f9f9f9;
 }
 
 #new-pickles-validation1 {
-    background-color: #5D814C;
-    width: 200px;
-    border-radius: 10px;
-    transform: rotate(-1deg);
+  background-color: #5d814c;
+  width: 14.625vw;
+  border-radius: 10px;
+  transform: rotate(-1deg);
 }
 
 #new-pickles-validation2 {
-    background-color: #5D814C;
-    width: 200px;
-    border-radius: 10px;
-    transform: rotate(1deg);
+  background-color: #5d814c;
+  width: 14.625vw;
+  border-radius: 10px;
+  transform: rotate(1deg);
 }
 
 #new-onions-validation1 {
-    background-color: #b96c93;
-    width: 150px;
-    border-radius: 5px;
-    transform: rotate(2deg);
+  background-color: #b96c93;
+  width: 11.719vw;
+  border-radius: 5px;
+  transform: rotate(2deg);
 }
 
 #new-onions-validation2 {
-    background-color: #b96c93;
-    width: 250px;
-    border-radius: 5px;
-    transform: rotate(-2deg);
+  background-color: #b96c93;
+  width: 16.531vw;
+  border-radius: 5px;
+  transform: rotate(-2deg);
 }
 
 #new-tomatoes-validation {
-    background-color: #ff6347;
-    width: 350px;
-    border-radius: 5px;
+  background-color: #ff6347;
+  width: 27.344vw;
+  border-radius: 5px;
 }
 
 #new-salad-validation {
-    background-color: #4ba351;
-    width: 450px;
-    border-radius: 5px;
+  background-color: #4ba351;
+  width: 30.156vw;
+  border-radius: 5px;
 }
 
 #new-ketchup-validation {
-    display: none;
-    margin: 0 auto;
-    background-color: #b21807;
-    width: 400px;
-    border-radius: 5px;
+  display: none;
+  margin: 0 auto;
+  background-color: #b21807;
+  width: 30.25vw;
+  border-radius: 5px;
 }
 
 #new-mayo-validation {
-    display: none;
-    margin: 0 auto;
-    background-color: #FFFFEE;
-    width: 400px;
-    border-radius: 5px;
+  display: none;
+  margin: 0 auto;
+  background-color: #ffffee;
+  width: 30.25vw;
+  border-radius: 5px;
 }
 
 #new-samourai-validation {
-    display: none;
-    margin: 0 auto;
-    background-color: rgb(240, 177, 105);
-    width: 400px;
-    border-radius: 5px;
+  display: none;
+  margin: 0 auto;
+  background-color: rgb(240, 177, 105);
+  width: 30.25vw;
+  border-radius: 5px;
+}
+
+@media (max-width: 575.98px) {
+  #new-bun-validation,
+  #new-bun-validation-bottom,
+  #new-cheese-validation,
+  #new-meat-validation {
+    width: 82.25vw;
+  }
+
+  #new-meat-validation {
+    width: 82.25vw;
+  }
+
+  #show-cooked-meat {
+    width: 82.25vw;
+  }
+
+  #new-pickles-validation1 {
+    width: 29.625vw;
+  }
+
+  #new-pickles-validation2 {
+    width: 29.625vw;
+  }
+
+  #new-onions-validation1 {
+    width: 24.719vw;
+  }
+
+  #new-onions-validation2 {
+    width: 24.719vw;
+  }
+
+  #new-tomatoes-validation {
+    width: 69.344vw;
+  }
+
+  #new-salad-validation {
+    width: 69.344vw;
+  }
+
+  #new-ketchup-validation {
+    width: 62.25vw;
+  }
+
+  #new-mayo-validation {
+    width: 62.25vw;
+  }
+
+  #new-samourai-validation {
+    width: 62.25vw;
+  }
 }
